@@ -18,7 +18,7 @@ body {
   }
   
   .square {
-    background: #fff;
+    background: rgb(0, 0, 0);
     border: 1px solid #999;
     float: left;
     font-size: 24px;
@@ -30,6 +30,18 @@ body {
     padding: 0;
     text-align: center;
     width: 34px;
+  }
+
+  .table {
+    font-size: 24px;
+    color: rgb(233, 0, 0);
+    background-color: black;
+  }
+
+  .title {
+    font-size: 24px;
+    color: rgb(233, 0, 0);
+    background-color: black;
   }
   
   .square:focus {
