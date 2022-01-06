@@ -1,10 +1,12 @@
 body {
+    background: rgb(156, 171, 255);
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
   }
   
   ol, ul {
     padding-left: 30px;
+    background: rgb(2, 133, 255);
   }
   
   .board-row:after {
@@ -39,8 +41,8 @@ body {
   }
 
   .title {
-    font-size: 24px;
-    color: rgb(233, 0, 0);
+    font-size: 48px;
+    color: rgb(255, 255, 255);
     background-color: black;
   }
   
