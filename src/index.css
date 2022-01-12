@@ -1,37 +1,22 @@
+
+
 body {
-    background: rgb(156, 171, 255);
+    background: rgb(36, 44, 83);
     font: 14px "Century Gothic", Futura, sans-serif;
-    margin: 20px;
+    margin: 60px;
   }
   
   ol, ul {
-    padding-left: 30px;
-    background: rgb(2, 133, 255);
-  }
-  
-  .board-row:after {
-    clear: both;
-    content: "";
-    display: table;
-  }
-  
-  .status {
-    margin-bottom: 10px;
-  }
-  
-  .square {
-    background: rgb(0, 0, 0);
-    border: 1px solid #999;
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 34px;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
-    text-align: center;
-    width: 34px;
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(255, 255, 255);
   }
 
   .table {
@@ -39,27 +24,57 @@ body {
     color: rgb(233, 0, 0);
     background-color: black;
   }
+  
+  .hometitle{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    vertical-align: middle;
+    color:rgb(81, 107, 255);
+    font-size: 144px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 500px;
+    position: absolute;
+  }
 
   .title {
     font-size: 48px;
     color: rgb(255, 255, 255);
-    background-color: black;
+  }
+
+  .center {
+    margin: auto;
+    width: 55%;
+    border: 3px solid rgb(162, 181, 211);
+    padding: 10px;
+    background-color: rgb(52, 82, 255);
   }
   
-  .square:focus {
-    outline: none;
+  .smalltitle{
+    color: rgb(255, 255, 255);
+  }
+
+  .smallbutton{
+    color: rgb(0, 0, 0);
+  }
+
+  .col{
+    height: 100%;
+  }
+
+  .display{
+    background-color: rgb(21, 26, 97);
+  }
+
+  .todo{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  .delete{
+    margin-left: auto; 
+    margin-right: 0;
   }
   
-  .kbd-navigation .square:focus {
-    background: #ddd;
-  }
-  
-  .game {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .game-info {
-    margin-left: 20px;
-  }
+
   
